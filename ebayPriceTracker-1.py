@@ -46,10 +46,10 @@ def save_to_file(prices):
 
 def send_text_message(message):
     # Replace these values with your Twilio account SID, auth token, Twilio phone number, and your phone number
-    account_sid = 'ACdcfcbe5482cb9aa111341a21f25bd4df'
-    auth_token = 'ae051fd1e696b90db34b3cfea7c56bef'
-    from_phone_number = '+18555030489'
-    to_phone_number = '+17576513018'
+    account_sid = 'Your account SID'
+    auth_token = 'Enter your Authentication ID'
+    from_phone_number = 'Your Twilio Phone Numer'
+    to_phone_number = 'Your phone number'
 
     client = Client(account_sid, auth_token)
 
